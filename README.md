@@ -6,7 +6,7 @@ AWSのLambdaのコードをJavaで作っています。
 Lambda Javaコードを動かすにはIAM Role for AWS LambdaでEC2とCloudTrailの権限が必要です。
 以下、ポリシー記載例です。
 
-```IAM Role Policy
+```json
 {
   "Version": "2012-10-17",
   "Statement": [
